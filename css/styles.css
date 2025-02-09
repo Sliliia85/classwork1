@@ -5,4 +5,325 @@
 }
 body {
     font-family: "Montserrat", sans-serif;
+    color: #2a2a2a;
+    background-color: #fafafa;
+} 
+a {
+    text-decoration: none;
 }
+ul, ol {
+list-style-type: none; 
+}
+.orange {
+    color: #fd9222;
+}
+ button {
+    cursor: pointer;
+    font-family: "Montserrat", sans-serif;
+ }
+
+  /* #region: header */
+
+.header {
+}
+
+.nav-header {
+}
+
+.accept {
+    font-style: normal;
+}
+
+.logo-header {
+    font-style: italic;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 1.11;
+        letter-spacing: -0.03em;
+        color: #111;
+}
+
+.menu-header {
+}
+
+.menu-list-header {}
+
+
+.link-nav-header {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: -0.02em;
+    color: #111;
+}
+.link-nav-header:hover,
+.link-nav-header:focus {
+    color: #fd9222;
+}
+
+        /* #endregion: header */
+
+       /* #region: buy */
+
+.hero {
+background-color: #1e1823;
+}
+
+.title-hero {
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 1.2;
+    letter-spacing: -0.03em;
+    color: #fff;
+}
+
+.button-hero {
+font-weight: 600;
+    font-size: 14px;
+    color: #fff;
+    background-color: #fd9222;
+}
+
+.button-hero:hover,
+.button-hero:focus {
+color: #fd9222;
+background-color: #fcf1e0;
+}
+.made-hero {
+font-weight: 600;
+    font-size: 14px;
+    color: #fff;
+}
+
+.made-hero:hover,
+.made-hero:focus {
+    color: #fd9222;
+}
+.down-hero {
+     font-weight: 500;
+        font-size: 14px;
+        line-height: 1.28;
+        letter-spacing: -0.03em;
+        color: #fff;
+}
+.down-hero:hover,
+.down-hero:focus {
+    color: #fd9222;
+}
+
+/* #endregion: buy */
+
+/* #region: for us */
+
+.for-us {
+    background-color: #1e1823;
+}
+
+.title-us {
+    font-weight: 600;
+        font-size: 24px;
+        line-height: 1.16;
+        letter-spacing: -0.03em;
+        text-transform: uppercase;
+        text-align: center;
+        color: #111;
+}
+
+.list-for-us {}
+
+.item-for-us {}
+
+.title-for-us {
+    font-weight: 600;
+    font-size: 18px;
+    color: #fff;
+}
+
+.text-for-us {
+    font-weight: 400;
+        font-size: 14px;
+        letter-spacing: -0.02em;
+        color: rgba(255, 255, 255, 0.7);
+}
+
+/* #endregion: for us */
+
+/* #region: footer */
+
+.footer {
+    background-color: #1e1823;
+}
+
+.text-footer {
+    font-weight: 500;
+        font-size: 28px;
+        line-height: 1.21;
+        letter-spacing: -0.02em;
+        color: #fff;
+}
+
+.text-style-footer {}   
+
+
+.address-footer {
+    font-style: normal;
+}
+
+.text-address-footer {
+    font-weight: 500;
+        font-size: 14px;
+        line-height: 1.28;
+        text-align: center;
+        color: #fff;
+}
+
+.list-address-footer {
+   
+}
+
+.item-address-footer {}
+
+.link-address-footer {
+    font-weight: 400;
+        font-size: 14px;
+        line-height: 1.28;
+        letter-spacing: -0.02em;
+        color: #fff;
+}
+
+.link-address-footer:hover,
+.link-address-footer:focus {
+    color: #fd9222;
+}
+.nav-footer {}
+
+.menu-footer {}
+
+.link-menu-footer {
+    font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: -0.02em;
+        color: #fff;
+}
+.link-menu-footer:hover,
+.link-menu-footer:focus {
+    color: #fd9222;
+}
+
+/* #endregion: footer */
+
+/* #region: ingredients */
+
+.ingredients {}
+
+.title-ingredients {
+    font-weight: 600;
+        font-size: 24px;
+        line-height: 1.16;
+        letter-spacing: -0.03em;
+        color: #111;
+}
+
+.title-ingredients-card {
+font-weight: 600;
+    font-size: 14px;
+    line-height: 1.28;
+    letter-spacing: -0.02em;
+    color: #fff;
+}
+.text-ingredients {
+    font-weight: 400;
+        font-size: 14px;
+        line-height: 1.28;
+        letter-spacing: -0.02em;
+        color: #111;
+}
+
+.list-ingredients {}
+
+.item-ingredients {}
+
+/* #endregion: ingredients */
+
+/* #region: how made */
+
+.made {}
+
+.title-made {
+    font-weight: 600;
+        font-size: 24px;
+        line-height: 1.16;
+        letter-spacing: -0.03em;
+        color: #111;
+}
+
+.image-made {}
+
+.title-made-one {
+    font-weight: 600;
+        font-size: 18px;
+        line-height: 1.33;
+        color: #111;
+}
+
+.list-made {}
+
+.item-made {}
+
+.text-made {
+    font-weight: 400;
+        font-size: 14px;
+        line-height: 1.28;
+        letter-spacing: -0.02em;
+        color: #111;
+}
+
+/* #endregion: howe made */
+
+/* #region: team*/
+
+.team {}
+
+.title-team {
+    font-weight: 600;
+        font-size: 24px;
+        line-height: 1.16;
+        letter-spacing: -0.03em;
+        color: #111;
+}
+
+.orange {}
+
+.list-team {}
+
+.item-team {}
+
+.image-team {}
+
+.title-team-one {
+    font-weight: 600;
+        font-size: 18px;
+        line-height: 1.33;
+        color: #111;
+}
+
+.text-team {
+    font-weight: 400;
+        font-size: 14px;
+        line-height: 1.28;
+        letter-spacing: -0.02em;
+        color: rgba(17, 17, 17, 0.7);
+}
+
+.button-team {
+    font-weight: 600;
+        font-size: 18px;
+        color: #111;
+}
+.button-team:hover,
+.button-team:focus {
+  background-color: #fd9222;
+  color: #fff;
+}
+/* #endregion: team */
