@@ -12,10 +12,10 @@
 </head>
 <body>
  <header class="header">
-    <div class="container">
-        <nav class="nav-header">
+    <div class="container header-container">
         <a  class="logo-header" href="./index.html">SIMPLY<span class="accept"> CHOCOLATE</span></a>
-        <ul class="menu-header">
+        <nav class="nav-header">
+<ul class="menu-header">
             <li class="menu-list-header"><a class="link-nav-header" href="">Home</a></li>
             <li class="menu-list-header"><a class="link-nav-header" href="">How it’s made?</a></li>
             <li class="menu-list-header"><a class="link-nav-header" href="">Chocolate is loved</a></li>
@@ -31,9 +31,11 @@
              <div class="container">
                  <div class="content-hero">
                       <h1 class="title-hero">Treat yourself or a loved one to our finest ingredients for a moment of pure delight!</h1>
-                    <button class="button-hero" type="button">Buy now</button>
-                    <a class="made-hero" href="#made">How it’s made</a>
-                 <a class="down-hero" href="#footer">scroll down</a>
+                    <div class="link-hero">
+                        <button class="button-hero" type="button">Buy now</button>
+                        <a class="made-hero" href="#made">How it’s made</a>
+                     <a class="down-hero" href="#footer">scroll down</a>
+                    </div>
                  </div>
              </div>
    </section>
@@ -100,25 +102,29 @@
  <section class="made" id="made">
     <div class="container">
         <h2 class="title-made">HOW IT’S <span class="orange"> MADE?</span></h2>
-        <img class="image-made" src="images/image.png" alt="plate-caffe">
-        <h3 class="title-made-one">Try our chocolates today and discover the perfect balance of flavor</h3>
-        <ul class="list-made">
-            <li class="item-made">
-                <p class="text-made">Heat the milk in a saucepan without bringing it to a boil. Add sugar and cocoa powder.</p>
-            </li>
-            <li class="item-made">
-                <p class="text-made">At the same time, prepare a water bath. Melt the butter on it.</p>
-            </li>
-            <li class="item-made">
-                <p class="text-made">"Mix" the milk mixture and already liquid butter. Mix thoroughly with a silicone spatula so that the mass becomes uniform and silky.</p>
-            </li>
-            <li class="item-made">
-                <p class="text-made">Heat the mixture over low heat, letting it barely boil.</p>
-            </li>
-            <li class="item-made">
-                <p class="text-made">Pour the chocolate into special containers (can be replaced with ice molds). Allow to cool and harden.</p>
-            </li>
-        </ul>
+        <div class="containet-made">
+            <img class="image-made" src="images/image.png" alt="plate-caffe">
+            <div class container-made-text>
+                <h3 class="title-made-one">Try our chocolates today and discover the perfect balance of flavor</h3>
+                <ul class="list-made">
+                    <li class="item-made">
+                        <p class="text-made">Heat the milk in a saucepan without bringing it to a boil. Add sugar and cocoa powder.</p>
+                    </li>
+                    <li class="item-made">
+                        <p class="text-made">At the same time, prepare a water bath. Melt the butter on it.</p>
+                    </li>
+                    <li class="item-made">
+                        <p class="text-made">"Mix" the milk mixture and already liquid butter. Mix thoroughly with a silicone spatula so that the mass becomes uniform and silky.</p>
+                    </li>
+                    <li class="item-made">
+                        <p class="text-made">Heat the mixture over low heat, letting it barely boil.</p>
+                    </li>
+                    <li class="item-made">
+                        <p class="text-made">Pour the chocolate into special containers (can be replaced with ice molds). Allow to cool and harden.</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </div>
  </section>
 
@@ -156,20 +162,22 @@
 
 </main>
  <footer id="footer" class="footer">
-    <div class="container">
-        <p class="text-footer"><span class="orange">Chocolate</span> a delicious cure for a bad day</p>
-           <div class="footer-container">
-                <address class="address-footer">
-                    <p class="text-address-footer">Contact us</p>
-                    <ul class="list-address-footer">
-                        <li class="item-address-footer">
-                <a class="link-address-footer" href="mailto:simplycthаoc@gmail.com">simplycthаoc@gmail.com</a>
-                </li>
-                <li class="item-address-footer">
-                <a class="link-address-footer" href="tel:++380684439426">+380 (68) 443-94-26</a>
-                </li>
-            </address>
-            </ul>
+    <div class="container ">
+       <div class="container-footer">
+            <p class="text-footer"><span class="orange">Chocolate</span> a delicious cure for a bad day</p>
+               <div class="footer-container">
+                    <address class="address-footer">
+                        <p class="text-address-footer">Contact us</p>
+                        <ul class="list-address-footer">
+                            <li class="item-address-footer">
+                                <a class="link-address-footer" href="tel:++380684439426">+380 (68) 443-94-26</a>
+                            </li>
+                            <li class="item-address-footer">
+                    <a class="link-address-footer" href="mailto:simplycthаoc@gmail.com">simplycthаoc@gmail.com</a>
+                    </li> 
+                </address>
+                </ul>
+       </div>
             </div>
             <nav class="nav-footer">
     <ul class="menu-footer">

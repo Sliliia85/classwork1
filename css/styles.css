@@ -27,6 +27,9 @@ h5,
 h6 {
     margin: 0;
     }
+ img {
+        display: block;
+    }
 .orange {
     color: #fd9222;
 }
@@ -44,13 +47,14 @@ h6 {
   /* #region: header */
 
 .header {
-   padding-top: 28px;
-   padding-bottom: 28px;
+  
 }
-
-.nav-header {
+.header-container {
     display: flex;
-        align-items: center;
+    justify-content: space-between;
+}
+.nav-header {
+    
 }
 
 .accept {
@@ -64,14 +68,13 @@ h6 {
         line-height: 1.11;
         letter-spacing: -0.03em;
         color: #111;
-        padding-top;: 28px;
-        padding-bottom: ;: 28px;
+        padding-top: 28px;
+        padding-bottom: 28px;
        
 }
 
 .menu-header {
     display: flex;
-    align-items: center;
     gap: 24px;
     margin-left: auto;
 }
@@ -88,8 +91,9 @@ h6 {
     line-height: 1.14;
     letter-spacing: -0.02em;
     color: #111;
-    padding: 30px 0;
-    display: block;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: inline-block;
 }
 .link-nav-header:hover,
 .link-nav-header:focus {
@@ -109,6 +113,7 @@ border-radius: 30px;
 
 .content-hero {
     padding: 375px 72px 46px 72px;
+    margin: 0 auto;
 }
 .title-hero {
     font-weight: 500;
@@ -116,7 +121,7 @@ border-radius: 30px;
     line-height: 1.2;
     letter-spacing: -0.03em;
     color: #fff;
-    width: 454px;
+    max-width: 484px;
     height: 102px;
     margin-bottom: 32px;
 }
@@ -126,6 +131,9 @@ font-weight: 600;
     font-size: 14px;
     color: #fff;
     background-color: #fd9222;
+    border: none;
+    border-radius: 100px;
+    padding: 14px 40px;
     margin-right: 14px;
 }
 
@@ -138,9 +146,14 @@ background-color: #fcf1e0;
 font-weight: 600;
     font-size: 14px;
     color: #fff;
-    margin-right: 637px;
+    border: 1px solid #fff;
+        border-radius: 100px;
+        padding: 14px 40px;
 }
-
+.link-hero {
+    display: flex;
+    align-items: center;
+}
 .made-hero:hover,
 .made-hero:focus {
     color: #fd9222;
@@ -151,6 +164,7 @@ font-weight: 600;
         line-height: 1.28;
         letter-spacing: -0.03em;
         color: #fff;
+       margin-left: auto;
 }
 .down-hero:hover,
 .down-hero:focus {
@@ -181,14 +195,15 @@ font-weight: 600;
 
 
 .list-for-us {
-    padding-left: 50px;
-    padding-right: 50px;
+   
     display: flex;
     align-items: center;
+    gap: 70px;
+   padding: 50px;
 }
 
-.item-for-us:not(:last-child) {
-    margin-right: 70px;
+.item-for-us {
+    width: calc((100% - 140px) / 3);
 }
 
 .title-for-us {
@@ -222,8 +237,8 @@ font-weight: 600;
         letter-spacing: -0.02em;
         color: #fff;
         max-width: 300px;
-        margin-top: 50px;
-        margin-left: 32px;
+     
+       
 }
 
 .text-style-footer {}   
@@ -231,19 +246,26 @@ font-weight: 600;
 
 .address-footer {
     font-style: normal;
+    margin-left: auto;
 }
 
 .text-address-footer {
     font-weight: 500;
         font-size: 14px;
         line-height: 1.28;
-        text-align: center;
+        margin-bottom: 14px;
         color: #fff;
 }
-
+.container-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-left: 32px;
+}
 .footer-container {
     max-width: 177px;
-    margin: 0 auto;
+
     
 }
 .list-address-footer {
@@ -264,9 +286,16 @@ font-weight: 600;
 .link-address-footer:focus {
     color: #fd9222;
 }
-.nav-footer {}
+.nav-footer {
+    margin-top: 54px;
+}
 
-.menu-footer {}
+.menu-footer {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    padding-bottom: 86px;
+}
 
 .link-menu-footer {
     font-weight: 500;
@@ -274,6 +303,9 @@ font-weight: 600;
         line-height: 1.14;
         letter-spacing: -0.02em;
         color: #fff;
+        padding-top: 24px;
+        padding-left: 32px;
+        
 }
 .link-menu-footer:hover,
 .link-menu-footer:focus {
@@ -334,7 +366,11 @@ font-weight: 600;
 .made {
    margin-bottom: 100px;
 }
-
+.containet-made {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
 .title-made {
     font-weight: 600;
         font-size: 24px;
@@ -346,7 +382,10 @@ font-weight: 600;
         margin-bottom: 50px;
 }
 
-.image-made {}
+.image-made {
+    list-style-type: ;
+    
+}
 
 .title-made-one {
     font-weight: 600;
@@ -356,8 +395,14 @@ font-weight: 600;
         margin-bottom: 28px;
 }
 
-.list-made {}
-
+.list-made {
+    gap: 24px;
+}
+.container-made-text {
+    display: flex;
+    align-items: center;
+    gap: 28px;
+}
 .item-made {
     margin-bottom: 24px;
 }
