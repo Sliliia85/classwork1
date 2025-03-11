@@ -248,6 +248,61 @@
     </ul>
         </nav>
     </div>
- </footer>   
+ </footer> 
+ <div class="modal-window is-open">
+    <div class="modal-window-content">
+        <button class="modal-window-btn-icon" type="button">
+            <svg class="modal-window-btn-icon-svg" width="16" height="16">
+              <use href="./images/icons.svg#icon-x-close"></use>
+            </svg>
+        </button>
+        <p class="modal-window-text">LEAVE A REVIEW ABOUT <span class="modal-window-text-span">OUR CHOCOLATE</span></p>
+        <div class="modal-window-container">
+            <form class="modal-window-form">
+                <div class="modal-window-form-container">
+                    <label class="modal-window-label" for="user-name">Name</label>
+                    <div class="input-wraper">
+                        <input class="user-input" id="user-name" name="user-name" type="text">
+                        <svg class="modal-window-icon" width="24" height="24">
+                            <use href="./images/icons.svg#icon-user"></use>
+                        </svg>
+                    </div>
+                </div>
+                <div class="modal-window-form-container">
+                    <label class="modal-window-label" for="user-email">Email</label>
+                    <div class="input-wraper">
+                        <input class="user-input" id="user-email"  name="user-email" type="text">
+                        <svg class="modal-window-icon" width="24" height="24">
+                            <use href="./images/icons.svg#icon-mail"></use>
+                        </svg>
+                    </div>
+                </div>
+                <div class="modal-window-form-container">
+                    <label class="modal-window-label" for="user-phone">Phone number</label>
+                    <div class="input-wraper">
+                        <input class="user-input" name="user-phone" id="user-phone" type="text">
+                        <svg class="modal-window-icon" width="24" height="24">
+                            <use href="./images/icons.svg#icon-phone"></use>
+                        </svg>
+                    </div>
+                </div>
+                <div class="modal-window-form-container">
+                    <label class="modal-window-label" for="user-comment">Comment</label>
+                    <textarea class="modal-window-comment" name="user-comment" id="user-comment" placeholder="Enter text"></textarea>
+                    <div class="Privacy-div">
+                        <input class="modal-window-checkbox visually-hidden" type="checkbox" id="user-privacy" name="user-privacy" value="true" required>
+                       <label class="modal-window-privacy" for="user-privacy">
+                        <span class="modal-span"><svg class="icon-form-accept" width="10" height="8">
+                            <use href="./images/icons.svg#icon-Vectorgalochka"></use>
+                        </svg>
+                    </span>I accept the terms and conditions of the<a href="#" class="modal-window-link">Privacy Policy</a>
+                    </label>
+                    </div>
+                </div>
+                <button class="modal-window-btn">Send</button>
+            </form>
+        </div>
+        </div>
+ </div>
 </body>
 </html>
